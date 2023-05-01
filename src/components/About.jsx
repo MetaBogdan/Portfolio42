@@ -34,7 +34,6 @@ const ServiceCard = ({ index, title, icon }) => (
     </motion.div>
   </Tilt>
 );
-
 const About = () => {
   return (
     <>
@@ -46,7 +45,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I`m a skilled Power BI and Full-stack developer with expertise in
+        I'm a skilled Power BI and Full-stack developer with expertise in
         frameworks like React, Node.js. I'm a quick learner and collaborate
         closely with clients to create efficient, scalable, and user-friendly
         solutions that solve real-world problems. Let's work together to bring
@@ -60,23 +59,30 @@ const About = () => {
           className={styles.sectionSubText}
           href="https://www.linkedin.com/in/bogdan-vozniy/details/recommendations"
         >
-          <span style={{ textDecoration: "underline" }}>My Power BI blog</span>
+          <span style={{ textDecoration: "underline", color: "red" }}>
+            My Power BI blog
+          </span>
         </a>
-      </motion.p>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        {" "}
+        <br />
+        My blog about Data Analyst is a source of valuable knowledge and
+        fascinating stories from the field. I showcase Power BI tricks and Power
+        BI + AI, share the best practices and strategies that will help you
+        become an expert in data analytics.
         <a
           className={styles.sectionSubText}
           href="https://www.linkedin.com/in/bogdan-vozniy/details/recommendations"
         >
-          <span style={{ textDecoration: "underline" }}>
+          <br /> <br />
+          <span style={{ textDecoration: "underline", color: "blue" }}>
             My Software developer blog
           </span>
         </a>
+        <br />
+        In my software development blog, I not only showcase my skills and
+        experience with software development technologies, but also share best
+        practices, examples and story from real projects.
       </motion.p>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -85,5 +91,4 @@ const About = () => {
     </>
   );
 };
-
 export default SectionWrapper(About, "about");
