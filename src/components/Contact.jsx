@@ -80,7 +80,7 @@ const Contact = () => {
         <div className="flex gap-10 mt-2">
           <a href="https://www.linkedin.com/in/bogdan-vozniy/">
             <img
-              src="src/assets/connect/linkedin.webp"
+              src="./src/assets/connect/linkedin.webp"
               className="w-12 h-12 object-cover rounded-full"
               style={{ transform: "scale(2)" }}
               alt="Linkedin"
@@ -88,7 +88,7 @@ const Contact = () => {
           </a>
           <a href="https://t.me/VozniyBogdan">
             <img
-              src="src/assets/connect/telegram.webp"
+              src="./src/assets/connect/telegram.webp"
               className="w-12 h-12 object-cover rounded-full"
               style={{ transform: "scale(2)" }}
               alt="Telegram"
