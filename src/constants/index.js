@@ -20,14 +20,21 @@ import {
   meta,
   sg,
   tesla,
-  //myphoto,
+  asydorenko_ph,
   ingo,
   unbr,
   shopify,
   carrent,
+  myphoto_1,
+  myphoto_2,
+  agrishan_ph,
   fastmoney,
   jobit,
   tripguide,
+  leonid_hp,
+  sprocenko_ph,
+  vshkvira_ph,
+  apostn_ph,
   threejs,
 } from "../assets";
 
@@ -68,11 +75,11 @@ const services = [
 const myphoto = [
   {
     title: "Me and my teem, work atmosfere",
-    image: "./src/assets/photo/me_at_work.jpg",
+    image: myphoto_1,
   },
   {
     title: "My 2021 awords",
-    image: "./src/assets/photo/my_awords.webp",
+    image: myphoto_2,
   },
 ];
 
@@ -204,7 +211,7 @@ const testimonials = [
     name: "Alexandr Grishan",
     designation: "Head of SQL Developer",
     company: "Fintech company",
-    image: "./src/assets/coworker/alex_gr.jpg",
+    image: agrishan_ph,
   },
   {
     testimonial:
@@ -212,7 +219,7 @@ const testimonials = [
     name: "Alexandr Sydorenko",
     designation: "Head of Retail Risk Division at Unex Bank",
     company: "Fintech company",
-    image: "./src/assets/coworker/alex_sy.jpg",
+    image: asydorenko_ph,
   },
   {
     testimonial:
@@ -220,7 +227,7 @@ const testimonials = [
     name: "Anna Postnykova",
     designation: "Lead QA Engineer",
     company: "Fintech company",
-    image: "./src/assets/coworker/anna_postnykova.jpg",
+    image: apostn_ph,
   },
   {
     testimonial:
@@ -228,7 +235,16 @@ const testimonials = [
     name: "Vladimir Shkvira",
     designation: "Software Developer",
     company: "Fintech company",
-    image: "./src/assets/coworker/volodya _shkvira.jpg",
+    image: vshkvira_ph,
+  },
+
+  {
+    testimonial:
+      "I was lucky to worked with Bogdan as a task manager from business. Bogdan knows how to deeply understand the very essence of the task and offer a comprehensive system solution that is easy and simple to maintain. Bogdan also knows how to ask such questions that will help to more accurately correct the problem statement.",
+    name: "Sergey Procenko",
+    designation: "Head of the analytics department",
+    company: "Fintech company",
+    image: sprocenko_ph,
   },
   {
     testimonial:
@@ -236,15 +252,7 @@ const testimonials = [
     name: "Leonid Yarmolnyk",
     designation: "Software Developer",
     company: "Fintech company",
-    image: "./src/assets/coworker/leonid.jpg",
-  },
-  {
-    testimonial:
-      "I was lucky to worked with Bogdan as a task manager from business. Bogdan knows how to deeply understand the very essence of the task and offer a comprehensive system solution that is easy and simple to maintain. Bogdan also knows how to ask such questions that will help to more accurately correct the problem statement.",
-    name: "Sergey Procenko",
-    designation: "Head of the analytics department",
-    company: "Fintech company",
-    image: "./src/assets/coworker/sergey_pr.jpg",
+    image: leonid_hp,
   },
 ];
 
@@ -319,3 +327,11 @@ const projects = [
 ];
 
 export { myphoto, services, technologies, experiences, testimonials, projects };
+/*{
+    testimonial:
+      "we worked together for 4 years!  I want to note your ability to conduct a positive dialogue with programmers! Despite the mood with which I started the conversation, I ended the conversation with a positive attitude and this made working with you very pleasant and comfortable.",
+    name: "Leonid Yarmolnyk",
+    designation: "Software Developer",
+    company: "Fintech company",
+    image: "./src/assets/coworker/leonid.jpg",
+  },*/

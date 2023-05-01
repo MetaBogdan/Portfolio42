@@ -31,12 +31,24 @@ import unbr from "./company/UNBR.png";
 import ingo from "./company/ingo.png";
 
 import carrent from "./carrent.png";
+import agrishan_ph from "./coworker/alex_gr.jpg";
+import asydorenko_ph from "./coworker/alex_sy.jpg";
+import apostn_ph from "./coworker/anna_postnykova.jpg";
+import vshkvira_ph from "./coworker/volodya _shkvira.jpg";
+import sprocenko_ph from "./coworker/sergey_pr.jpg";
+import leonid_hp from "./coworker/leonid.jpg";
+
 import fastmoney from "./sg.png";
 
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import myphoto_1 from "./photo/me_at_work.jpg";
+import myphoto_2 from "./photo/my_awords.webp";
 export {
+  leonid_hp,
+  sprocenko_ph,
+  vshkvira_ph,
+  apostn_ph,
   logo,
   backend,
   creator,
@@ -67,6 +79,10 @@ export {
   ingo,
   unbr,
   carrent,
+  agrishan_ph,
+  asydorenko_ph,
+  myphoto_1,
+  myphoto_2,
   fastmoney,
   jobit,
   tripguide,
