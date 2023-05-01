@@ -44,7 +44,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import myphoto_1 from "./photo/me_at_work.jpg";
 import myphoto_2 from "./photo/my_awords.webp";
+import linkedn from "./connect/linkedin.webp";
+import telegram from "./connect/telegram.webp";
 export {
+  linkedn,
+  telegram,
   leonid_hp,
   sprocenko_ph,
   vshkvira_ph,

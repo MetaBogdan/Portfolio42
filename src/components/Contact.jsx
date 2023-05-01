@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { linkedn, telegram } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -80,7 +81,7 @@ const Contact = () => {
         <div className="flex gap-10 mt-2">
           <a href="https://www.linkedin.com/in/bogdan-vozniy/">
             <img
-              src="./src/assets/connect/linkedin.webp"
+              src={linkedn}
               className="w-12 h-12 object-cover rounded-full"
               style={{ transform: "scale(2)" }}
               alt="Linkedin"
@@ -88,7 +89,7 @@ const Contact = () => {
           </a>
           <a href="https://t.me/VozniyBogdan">
             <img
-              src="./src/assets/connect/telegram.webp"
+              src={telegram}
               className="w-12 h-12 object-cover rounded-full"
               style={{ transform: "scale(2)" }}
               alt="Telegram"
