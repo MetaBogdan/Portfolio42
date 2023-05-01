@@ -68,11 +68,11 @@ const services = [
 const myphoto = [
   {
     title: "Me and my teem, work atmosfere",
-    image: "/src/assets/photo/me_at_work.jpg",
+    image: "./src/assets/photo/me_at_work.jpg",
   },
   {
     title: "My 2021 awords",
-    image: "/src/assets/photo/my_awords.webp",
+    image: "./src/assets/photo/my_awords.webp",
   },
 ];
 
@@ -204,7 +204,7 @@ const testimonials = [
     name: "Alexandr Grishan",
     designation: "Head of SQL Developer",
     company: "Fintech company",
-    image: "/src/assets/coworker/alex_gr.jpg",
+    image: "./src/assets/coworker/alex_gr.jpg",
   },
   {
     testimonial:
@@ -212,7 +212,7 @@ const testimonials = [
     name: "Alexandr Sydorenko",
     designation: "Head of Retail Risk Division at Unex Bank",
     company: "Fintech company",
-    image: "/src/assets/coworker/alex_sy.jpg",
+    image: "./src/assets/coworker/alex_sy.jpg",
   },
   {
     testimonial:
@@ -220,7 +220,7 @@ const testimonials = [
     name: "Anna Postnykova",
     designation: "Lead QA Engineer",
     company: "Fintech company",
-    image: "/src/assets/coworker/anna_postnykova.jpg",
+    image: "./src/assets/coworker/anna_postnykova.jpg",
   },
   {
     testimonial:
@@ -228,7 +228,7 @@ const testimonials = [
     name: "Vladimir Shkvira",
     designation: "Software Developer",
     company: "Fintech company",
-    image: "/src/assets/coworker/volodya _shkvira.jpg",
+    image: "./src/assets/coworker/volodya _shkvira.jpg",
   },
   {
     testimonial:
@@ -236,7 +236,7 @@ const testimonials = [
     name: "Leonid Yarmolnyk",
     designation: "Software Developer",
     company: "Fintech company",
-    image: "/src/assets/coworker/leonid.jpg",
+    image: "./src/assets/coworker/leonid.jpg",
   },
   {
     testimonial:
@@ -244,7 +244,7 @@ const testimonials = [
     name: "Sergey Procenko",
     designation: "Head of the analytics department",
     company: "Fintech company",
-    image: "/src/assets/coworker/sergey_pr.jpg",
+    image: "./src/assets/coworker/sergey_pr.jpg",
   },
 ];
 
