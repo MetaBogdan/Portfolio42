@@ -19,9 +19,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Bogdan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm Power Bi and Full-stack
-            <br className="sm:block hidden" />
-            Developer
+            I'm Power Bi Developer and Data Analyst
           </p>
         </div>
       </div>

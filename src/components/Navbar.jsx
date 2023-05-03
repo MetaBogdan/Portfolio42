@@ -46,7 +46,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Voznyi Bogdan`s &nbsp;
             <span className="sm:block hidden">
-              | Power Bi and Full-stack Developer Portfolio
+              | Power Bi Developer and Data Analyst Portfolio
             </span>
           </p>
         </Link>
