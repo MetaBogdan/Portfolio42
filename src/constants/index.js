@@ -55,19 +55,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Data Analyst",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Power Bi Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DB developer",
     icon: creator,
   },
   {
-    title: "Power Bi Developer",
+    title: "Content Creator",
     icon: mobile,
   },
 ];
@@ -231,7 +231,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Bogdan demonstrating expertise in React development and related technologies such as JavaScript, HTML, CSS, and SQL. He was a strong collaborator and consistently delivered high-quality work. Bogdan also a valuable team player, being friendly, polite, and always striving to maintain a positive work environment.",
+      "Bogdan demonstrating expertise in SQL. He was a strong collaborator and consistently delivered high-quality work. Bogdan also a valuable team player, being friendly, polite, and always striving to maintain a positive work environment.",
     name: "Vladimir Shkvira",
     designation: "Software Developer",
     company: "Fintech company",

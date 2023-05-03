@@ -45,11 +45,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Power BI and Full-stack developer with expertise in
-        frameworks like React, Node.js. I'm a quick learner and collaborate
-        closely with clients to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems. Let's work together to bring
-        your ideas to life!
+        I'm a skilled Power BI developer and Data Analyst with expertise in SQL.
+        I'm a quick learner and collaborate closely with clients to create
+        efficient, scalable, and user-friendly solutions that solve real-world
+        problems. Let's work together to bring your ideas to life!
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -57,7 +56,7 @@ const About = () => {
       >
         <a
           className={styles.sectionSubText}
-          href="https://www.linkedin.com/in/bogdan-vozniy/details/recommendations"
+          href="https://medium.com/@baglandir"
         >
           <span style={{ textDecoration: "underline", color: "red" }}>
             My Power BI blog
@@ -68,19 +67,6 @@ const About = () => {
         fascinating stories from the field. I showcase Power BI tricks and Power
         BI + AI, share the best practices and strategies that will help you
         become an expert in data analytics.
-        <a
-          className={styles.sectionSubText}
-          href="https://www.linkedin.com/in/bogdan-vozniy/details/recommendations"
-        >
-          <br /> <br />
-          <span style={{ textDecoration: "underline", color: "blue" }}>
-            My Software developer blog
-          </span>
-        </a>
-        <br />
-        In my software development blog, I not only showcase my skills and
-        experience with software development technologies, but also share best
-        practices, examples and story from real projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
